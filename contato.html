@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Novo Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        color:blanchedalmond;
+        font-size: 5em;
+
+    }
+     form{
+        background:rgb(58, 172, 163); 
+        padding: 5px;
+        width: 350px;
+        border: 1px solid blue;
+        
+    }
+
+    body{
+        background-color:black
+    }
+
+
+
+
+     
+</style>
+<body>
+    <h1><u>Super Mario Bros</u></h1>
+    <br>
+    <nav id="menu">
+            
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="imagen.html">imagens</a></li>
+               
+            </ul>
+        </nav>
+
+    <form action="#">
+    <label for="nome">Nome:</label> <br>
+    <input  required autofocus placeholder="Digitar o nome" id="nome" type="text" name="nome" size="30px"><br>
+    <label for="nome">email:</label> <br>
+    <input  autofocus placehoder="Digitar seu email" type="email" name="email" size= "50 px" ><br>  
+    <label for="nome">informe a data :</label> <br>  
+    <input type="date">
+    <br>
+Selecione o seu departamento:<br>
+<select name="cidade">
+    <option value="1">- escolher -</option>
+    <option value="Ti">Ti</option>
+    <option value="RH">RH</option>
+    <option value="Logistica">Logistica</option>
+    <option value="Segurança do trabalho">Segurança do trabalho</option>
+    <option value="Financeiro">Finaceiro</option>
+    <option value="compras">Compras</option>
+    
+</select>        
+<br>
+Observação:<br>
+<textarea name="obs" rows="5" cols="40" placeholder="Digitar aqui!">
+</textarea>
+
+
+<input type="reset" value="Limpar">
+<input type="submit" value="Enviar">
+</form>
+</body>
+</html>
